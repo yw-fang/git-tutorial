@@ -49,3 +49,19 @@ git push u origin master
 
 git remote upstream git@github.com:abelcarreras/aiida-phonopy.git
 git fetch upstream
+
+##Refrences, questions and answers
+
+[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+
+[Keeping a fork up to date](https://gist.github.com/CristinaSolana/1885435)
+
+[Git push existing repo to a new and different remote repo server](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server)
+
+[merge unrelated histories](https://stackoverflow.com/questions/40036648/git-fatal-refusing-to-merge-unrelated-histories)
+
+[Merging an upstream repository into your fork](https://help.github.com/articles/merging-an-upstream-repository-into-your-fork/)
+
+[Create and push a branch](https://confluence.atlassian.com/get-started-with-bitbucket/create-and-push-a-branch-862720857.html)
+
+[Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)

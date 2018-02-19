@@ -24,3 +24,28 @@ git remote add origin git@github.com:yw-fang/git-tutorial.git
 git push -u origin master
 
 git status
+
+#create-branch
+git checkout -b work-1
+
+git push origin work-1
+
+#merge-branch-to-master.
+git checkout master
+
+git merge --no-ff work-1
+
+git log --graph
+
+#An example using git
+mkdir aiida-phonopy
+cd aiida-phonopy
+git init 
+touch README-1.md
+git add READEME-1.md
+git commit -m 'test'
+git remote add origin git@github.com:yw-fang/aiida-phonopy.git
+git push u origin master
+
+git remote upstream git@github.com:abelcarreras/aiida-phonopy.git
+git fetch upstream

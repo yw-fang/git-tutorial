@@ -1,1 +1,1 @@
-*.mmd filter=crypt diff=crypt
+crypt-files-in-GitHub.md filter=crypt diff=crypt

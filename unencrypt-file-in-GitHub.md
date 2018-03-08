@@ -30,7 +30,7 @@ Does this look correct? [Y/n]
 
 The repository has been successfully configured by transcrypt.
 
-$ echo 'crypt-files-in-GitHub.md' > .gitattributes
+$ echo 'crypt-files-in-GitHub.md  filter=crypt diff=crypt' > .gitattributes
 
 $ git add .gitattributes crypt-files-in-GitHub.md
 

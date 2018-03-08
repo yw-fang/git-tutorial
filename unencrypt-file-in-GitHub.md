@@ -34,6 +34,8 @@ $ echo 'crypt-files-in-GitHub.md  filter=crypt diff=crypt' > .gitattributes
 
 $ git add .gitattributes crypt-files-in-GitHub.md
 
+*It should be mentioned that, we have to add .gitattributes before the encrpted file. Never encrypt .gitattributes it self.*
+
 $ git commit -m 'add an encrypted version for crypt-files-in-GitHub.md'
 
 $ git push
@@ -58,13 +60,3 @@ and has the following configuration:
 Copy and paste the following command to initialize a cloned repository:
 
   transcrypt -c aes-256-cbc -p '1cp02JPVSxqeDpxgTyH2WD9y9KQw0uK1K3I6JsGL'
-
-
-
-## Attention:
-
-If there are several files need to be encrypted, you should use black line to seperate them like this (the information in an example .gitattributes)
-
-data.json  filter=crypt diff=crypt
-
-jobs.txt filter=crypt diff=crypt

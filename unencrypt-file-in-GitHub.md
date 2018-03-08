@@ -58,3 +58,13 @@ and has the following configuration:
 Copy and paste the following command to initialize a cloned repository:
 
   transcrypt -c aes-256-cbc -p '1cp02JPVSxqeDpxgTyH2WD9y9KQw0uK1K3I6JsGL'
+
+
+
+## Attention:
+
+If there are several files need to be encrypted, you should use black line to seperate them like this (the information in an example .gitattributes)
+
+data.json  filter=crypt diff=crypt
+
+jobs.txt filter=crypt diff=crypt

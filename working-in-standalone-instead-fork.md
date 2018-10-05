@@ -6,11 +6,10 @@ Here are the steps:
 
 1. Clone the repository (use git clone) you want to use.
 
-2. Create a new repository on GitHub webpage.
+2. Create a new repository on GitHub webpage (Don't initilize README and LICENSE files, important!).
 
 3. [Change the local repository's remote URL](https://help.github.com/articles/changing-a-remote-s-url/) to point to your new repository.
 
 4. [Push the local repository to your new repository on GitHub](https://help.github.com/articles/pushing-to-a-remote/).
 
-If you have erros when using git push, probably you also need rebase 
-your local repository: 1) git rebase origin/master; 2) git pull --rebase; 3) git push
+5. git pull; git push origin master

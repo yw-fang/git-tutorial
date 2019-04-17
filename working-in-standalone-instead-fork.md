@@ -4,7 +4,7 @@ If you don't plan to merge the changes upstream, you can consider working in a s
 
 Here are the steps:
 
-1. Clone the repository (use git clone) you want to use.
+1. Clone the repository (use git clone) in your terminal.
 
 2. Create a new repository on GitHub webpage.
 

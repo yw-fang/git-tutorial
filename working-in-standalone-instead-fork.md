@@ -1,6 +1,6 @@
 Woking for a fork will not be displayed in the contribution dashboard
 until those commints have been merged into the upstream.
-If you don't plan to merge the changes upstream, you can consider working in a standalong repository instead working for a fork.
+If you don't plan to merge the changes to upstream, you can consider working in a standalong repository instead working for a fork.
 
 Here are the steps:
 

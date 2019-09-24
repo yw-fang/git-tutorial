@@ -47,7 +47,7 @@ git commit -m 'test'
 git remote add origin git@github.com:yw-fang/aiida-phonopy.git
 git push u origin master
 
-git remote upstream git@github.com:abelcarreras/aiida-phonopy.git
+git remote add upstream git@github.com:abelcarreras/aiida-phonopy.git
 git fetch upstream
 
 ##Refrences, questions and answers
